@@ -5,7 +5,6 @@ const expectedCaches = [staticCacheName];
 
 const cacheFiles = [
     './',
-    'http://cdn.embedly.com/widgets/platform.js',
     './res/bootstrap.min.css',
     'https://fonts.googleapis.com/css?family=Inconsolata',
     './files/file-spreadsheet.svg',

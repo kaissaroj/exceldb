@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Google SpreadSheet Api</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="res/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    </head>
+    <body>
+        <header id="header">
+            <nav id="navbar" class="navbar navbar-expand-sm navbar-light bg-light vw-100">
+                <a class="navbar-brand" href="#">
+                    <img id="header-img" src="files/file-spreadsheet.svg" style="width: 64px;">
+                    </img>
+                    <span id="company" class="h1 text-primary ml-3 display-5">Google SpreadSheet Api</span>
+                </a>
+            </nav>
+        </header>
+        <div id="main" class="container mt-4">
+            <section id="hero" class="mx-auto" style="margin-bottom: 50px;">
+                <div id="demo-wrapper" class="col" style="text-align: center;">
+                    <h2><strong>Use any Google SpreadSheet as Api/Database.</strong></h2>
+                    <picture>
+                        <source srcset="files/magic.webp" type="image/webp">
+                        <source srcset="files/magic.webp" type="image/jpeg"> 
+                        <img src="files/magic.webp">
+                      </picture>
+                      <p><b>No Backend Code required.</b></p>
+                </div>
+                <p style="text-align: center;">
+                    <strong style="color: darkblue;
+                    font-size: 26px;">API Endpoint : <i>https://exceldb.herokuapp.com/r/</i></strong>
+                </p>
+            </section>
+            <section id="features">
+                <div id="features-title" class="h3 text-center font-weight-bold mb-4">
+                    HOW TO USE
+                </div>
+                <div id="features-wrapper" class="row text-center">
+                    <div id="feature" class="col-sm">
+                            <blockquote class="embedly-card"><h4><a href="https://medium.com/@kaissaroj/use-google-sheets-as-database-api-85c092535b79">Use Google Sheets as Database/API - Saroj Subedi - Medium</a></h4><p>We will be making a fully working API that can be used to get data out of a Google Spreadsheet without any coding. It will take you ~5 minutes, and you will not need to code anything. 3. Then Click ...</p></blockquote>
+                            <script async src="//cdn.embedly.com/widgets/platform.js" charset="UTF-8"></script>
+                    </div>
+                </div>
+            </section>
+
+            <section id="clients">
+                <div id="clients-title" class="h2 text-center font-weight-bold mt-5">
+                    Demo
+                </div>
+                <div id="client-logos" class="row text-center mt-4">
+                <strong>Simple GET Request Example</strong>
+<iframe width="100%" height="300" src="//jsfiddle.net/kaiser07/pgaL6319/24/embedded/js,html,result/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+                </div>
+                <br/><br/>
+              <strong>POST Request Example</strong>
+<iframe width="100%" height="300" src="//jsfiddle.net/kaiser07/fawp8mqe/13/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
+                </div>
+            </section>
+        </div>
+        <footer id="footer" class="card-footer mt-5">
+           Designed and built by <a href="http://sarojsubedi.info.np/" target="_blank" rel="noopener noreferrer">Saroj</a> 
+        </footer>
+    </body>
+    <script>
+            if('serviceWorker' in navigator) {
+              navigator.serviceWorker
+                       .register('/sw.js',{ scope: './'})
+                       .then(function() { console.log("Service Worker Registered"); });
+            }
+            </script>
+</html>

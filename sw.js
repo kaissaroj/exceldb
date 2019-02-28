@@ -1,4 +1,4 @@
-const version = 20190227;
+const version = 20190228-1;
 const cachePrefix = 'exceldb-';
 const staticCacheName = `${cachePrefix}static-${version}`;
 const expectedCaches = [staticCacheName];
